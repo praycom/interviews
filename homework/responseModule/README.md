@@ -9,13 +9,13 @@ The structure should be:
 
 BaseResponse
 * SuccessResponse
-  *ListResponse
-  *CreatedResponse
-  *DeletedResponse
+  * ListResponse
+  * CreatedResponse
+  * DeletedResponse
 
 * ErrorResponse
-  *InvalidParamsErrorResponse
-  *UnauthorizedErrorResponse
+  * InvalidParamsErrorResponse
+  * UnauthorizedErrorResponse
 
 ResponseFactory
 * should give you the appropriate Response Object
