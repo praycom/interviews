@@ -9,11 +9,17 @@ The structure should be:
 
 BaseResponse
 * SuccessResponse
+
 ** ListResponse
+
 ** CreatedResponse
+
 ** DeletedResponse
+
 * ErrorResponse
+
 ** InvalidParamsErrorResponse
+
 ** UnauthorizedErrorResponse
 
 ResponseFactory
